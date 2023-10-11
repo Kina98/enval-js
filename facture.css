@@ -1,0 +1,84 @@
+/* style pour facture */
+.facture {
+    width: 89%;
+    height: 70rem;
+    background: #fff;
+    border-radius: 16px;
+    margin-left: 16.5rem;
+    margin-top: 1rem;
+}
+
+table{
+    border-collapse: collapse ;
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    height: 60rem;
+    margin-top: 2rem;
+    
+}
+td, th{
+    border: 1px solid rgb(209, 206, 206);
+    font-size: 30px;
+    
+}
+.opacite {
+    color: rgb(31, 30, 30);
+    opacity: 0.6;
+}
+tr:hover{
+ background-color: gainsboro;
+}
+#bouton{
+    color: white;
+    background-color: #4a96a6;
+    font-size: 25px;
+    border: transparent;
+    border-radius: 8px;
+    padding: 8px;
+    width: 15%;
+    height: 50px;
+}
+th{
+    text-align: start;
+}
+.fac {
+    border-left: none;
+}
+.fac2{
+    border-right: none;
+}
+#recher{
+    width: 22rem;
+    padding: 15px;
+    border: 2px solid transparent;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+.vide {
+    height: 60px;
+}
+.searche{
+    margin-left: -340px;
+}
+.border1, .border2{
+    border-left: none;
+    border-right: none;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .facture{
+        width: 70%;
+    }
+    table tbody tr td {
+        font-size: 15px;
+    }
+    #bouton{
+        width: 25%;
+    }
+    #recher{
+        width: 15rem;
+    }
+    
+}

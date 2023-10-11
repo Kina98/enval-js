@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: #c0e2ea;
+   position: fixed;
+}
+
+
+/* partie sidbar */
+.side-nav {
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: -20px;
+    padding: 20px 30px;
+}
+
+.logo {
+    display: block;
+}
+.image {
+    width: 200px;
+}
+
+.parametre {
+    padding-top: 50rem;
+}
+
+.nav-links {
+    list-style: none;
+    position: relative;
+}
+.nav-links li {
+    padding: 10px 0;
+}
+.nav-links li a {
+    text-decoration: none;
+    padding: 10px 14px;
+    display: flex;
+    align-items: center;
+    color: rgb(31, 30, 30);
+    opacity: 0.5;
+    font-size: 18px;
+}
+.nav-links li a i {
+    font-size: 22px;
+    margin-right: 20px;
+}
+.nav-links li  :hover {
+    background:  #1898A8;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+
+/* bar de navigation navbar */
+.nav-bar {
+    width: 97%;
+    height: 6rem;
+    background: #fff;
+    margin-left: 16.5rem;
+}
+.icons-nav {
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 85%;
+}
+.les-icons {
+    margin: 1rem;
+}
+.bell-user {
+    font-size: 30px;
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+    .nav-bar{
+        width: 82%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .nav-bar{
+        width: 74%;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .nav-bar{
+        width: 66%;
+    }
+    .icons-nav {
+        padding-left: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .side-nav{
+        width: 110px;
+    }
+    .logo{
+        display: none;
+    }
+    .nav-links li a p{
+        display: none;
+    }
+    .nav-links li a i{
+        margin-right: 0;
+    }
+    .nav-links li a{
+        justify-content: center;
+    }
+    .nav-bar {
+        margin-left: 8rem;
+        width: 70%;
+    }
+    .icons-nav {
+        padding-left: 50%;
+    }
+    .dash {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 3rem;
+    }
+    
+}

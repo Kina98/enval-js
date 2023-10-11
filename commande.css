@@ -1,0 +1,14 @@
+/* style pour commande */
+.commande {
+    width: 89%;
+    height: 70rem;
+    background: #fff;
+    border-radius: 16px;
+    margin-left: 16.5rem;
+    margin-top: 1rem;
+}
+.en-cours{
+    text-decoration: none;
+    color: red;
+    font-size: 28px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5127414381.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="service-client.css">
+    <title>Service client</title>
+</head>
+<body>
+   
+    <div class="header">
+        <!-- notre side_bar -->
+        <div class="side-nav">
+            <a href="#" class="logo">
+                <img class="image" src="https://enval-group.com/wp-content/uploads/2021/02/enval_transparent.png" alt="">
+            </a>
+            <ul class="nav-links">
+                <li><a href="dashboard.html"><i class="fa-solid fa-chart-simple"></i><p>Dashboard</p></a></li>
+                <li><a href="facture.html"><i class="fa-solid fa-peace"></i><p>Facture</p></a></li>
+                <li><a href="commande.html"><i class="fa-solid fa-cart-shopping"></i><p>Commande</p></a></li>
+                <li><a href="suivi.html"><i class="fa-solid fa-bag-shopping"></i><p>Suivi</p></a></li>
+                <li><a href="service-client.html"><i class="fa-solid fa-comment-dots"></i><p>Service Client</p></a></li>
+               <div class="parametre">
+                <li><a href="#"><i class="fa-solid fa-gear"></i><p>Paramétre des comptes</p></a></li>
+                <li><a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i><p>Déconnexion</p></a></li>
+               </div>
+            </ul>
+        </div>
+
+        <!-- partie navbar -->
+        <div class="nav-bar">
+            <div class="icons-nav">
+                <div class="les-icons"><i class="bell-user fa-regular fa-bell"></i></div>
+                <div class="les-icons"><i class="bell-user fa-solid fa-circle-user"></i></div>
+            </div>
+        </div>
+
+            <!-- partie page client -->
+        <div class="formulaire">
+            <form action="/page-traitement-donnees" method="post">
+            <div>
+            <label class="form1" for="sujet">Sujet</label>
+            <input class="sujet" type="text" name="sujet" placeholder="">
+            </div>
+            <div>
+            <label class="form2" for="message">Message</label>
+            <textarea class="message" name="message" placeholder="" ></textarea>
+            </div>
+            <div>
+            <button class="button" type="submit">Envoyer</button>
+            </div>
+            </form>
+        </div>
+    </div>
+       
+   
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* style pour suivi */
+.suivi {
+    width: 89%;
+    height: 70rem;
+    background: #fff;
+    border-radius: 16px;
+    margin-left: 16.5rem;
+    margin-top: 1rem;
+}
+.bor{
+    border-right: none;
+}

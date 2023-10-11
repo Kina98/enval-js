@@ -1,0 +1,100 @@
+/* style pour suivi detail */
+.suivi_detail {
+    width: 89%;
+    height: 77rem;
+    background: white;
+    margin-left: 16.5rem;
+    margin-top: 1rem;
+    border-radius: 12px;
+}
+.R-T{
+    text-align: center;
+    color: rgb(165, 161, 161);
+    font-size: 15px;
+}
+.logo-suivi{
+    margin-left: 5rem;
+}
+
+table{
+    border-collapse: collapse;
+    border: solid;
+    color: rgb(165, 161, 161);
+   
+
+}
+.sory{
+    width: 95%;
+    background-color: white;
+    margin: auto;
+}
+
+.couleur{
+    background-color: #d0e9ef;
+}
+.col{
+    background-color: #d0e9ef;
+}
+.cot{
+    background-color: #d9d9d9;
+}
+.display{
+    display: flex;
+    margin-left: 10px;
+}
+.top{
+    width: 95%;
+    margin: auto;
+}
+.mm{
+    margin-top: 5px;
+}
+.displa{
+    display: flex;
+    margin-left: 10px;
+}
+.tire{
+    text-align: center;
+    border-left: solid;
+}
+.tirer{
+    text-align: center;
+    border-left: solid;
+
+}
+.fi{
+    background-color: #d0e9ef;
+}
+.v{
+    border-top: solid;
+}
+.cou{
+    background-color: #ff9b05;
+}
+.cool{
+    background-color:  #ff0405;
+}
+
+.multicolor{
+    background-image: linear-gradient(to right, #028002, #4d8a00, #799300, #a19a00, #c8a000, #da9b00, #ec9500, #ff8d00, #ff7b01, #ff6709, #fe5014, #fc341d);
+    width: 20%;
+    margin-left: 3.5rem;
+}
+.grand-x {
+    font-size: 35px;
+   margin-left: 90%;
+   padding-top: 40px;
+   color: gray;
+}
+.alignement {
+    display: flex;
+    margin-top: 15px;
+}
+.paragraphe {
+    margin-left: 18px;
+    margin-top: 1rem;
+    color: rgb(165, 161, 161);
+}
+.p2 {
+    font-size: 12px;
+}

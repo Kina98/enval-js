@@ -1,0 +1,43 @@
+/* style pour service client */
+.formulaire {
+    width: 89%;
+    border-radius: 12px;
+    padding: 0 50px 0 50px;
+    background: white;
+    margin-left: 16.5rem;
+    min-height: 70rem;
+}
+form div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.sujet {
+    height: 4rem;
+    background: #ECEAEA;
+    border-radius: 12px;
+    border: none;
+    margin-top: 2rem;
+}
+.message {
+    height: 40rem;
+    background: #ECEAEA;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1rem;
+}
+.button {
+    height: 4rem;
+    background: #1A98A8;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    margin-top: 5rem;
+}
+.form1, .form2 {
+    font-size: 25px;
+    color: rgb(31, 30, 30);
+    opacity: 0.35;
+}

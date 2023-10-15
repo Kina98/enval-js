@@ -12,20 +12,20 @@
         <div class="logo">
             <img src="../Logo/Enval_logo.png" alt="">
         </div>
-        <form action="">
+        <form id="form">
             <div class="les_elements">
-                <input class="email_et_password" type="email" name="email" placeholder="E-mail" required>
+                <input class="email_et_password" type="text" id="email-address" placeholder="E-mail" required>
             </div>
             <div class="les_elements">
-                <input class="email_et_password" type="password" name="password" placeholder="Mot de passe" required>
+                <input class="email_et_password" type="text" id="username" placeholder="Mot de passe" required>
             </div>
             <div class="les_elements">
                 <a class="lien" href="#">Mot de passe oublié?</a>
             </div>
-            <div class="les_elements">
-                <button class="button" type="submit"><a class="rapport" href="dashboard.html">Rapport</a></button>
-            </div>
+            <button class="button" type="submit" value="Submit" id="submit-btn" style="margin-left: 70px;">Rapport</button>
         </form>
     </div>
+
+    <script src="./script/index.js"></script>
 </body>
 </html>

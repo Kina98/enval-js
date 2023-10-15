@@ -42,6 +42,7 @@ body {
     border: 0px solid;
     border-radius: 8px;
     background-color: #569FB1;
+    cursor: pointer;
 }
 .rapport {
     font-size: 25px;
